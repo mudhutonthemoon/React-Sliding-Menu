@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+
+    --menu-bg: rgb(18, 0, 22);
+    --page-bg: rgb(32, 28, 42);
+
+    --menu-hover-bg:rgb(34, 16, 38);
+    --page-hover-bg: rgb(44, 40, 54);
+
+
+    --header-color: rgb(170, 170, 170);
+    --secondary-color: rgb(150, 150, 150);
+
+    --font-size: 0.75cm;
+    --font-size-secondary: 0.5cm;
+
+    --navbar-size: 6.5cm;
+    --navbar-size-medium: 3cm;
+    --navbar-top: 1.75cm;
+
+
+}
+
+.nsd {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.text {
+    font-family: "Open Sans";
+    color: var(--header-color);
+    font-size: var(--font-size);
+}
+
+.secondary-text {
+    font-size: var(--font-size-secondary);
+    color: var(--secondary-color);
+}
+
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
